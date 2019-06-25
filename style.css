@@ -1,0 +1,137 @@
+
+/* Top Nav */
+
+nav ul{
+ list-style:none; 
+ margin: 0;
+ padding: 0;
+}
+
+
+nav li{
+  float:left;
+}
+
+nav li a{
+  display: block;
+  text-align: center;
+  padding: 0px 0px 0px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+/* Logo */
+
+#logo{
+  font-family: 'Lora', serif;
+  background-color:black;
+  color: white;
+  padding: 1px 1px 1px 10px;
+}
+
+/* Second Nav */
+
+/* margin bottom below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+   margin-bottom:1rem;
+}
+
+.navbar .dropdown-menu {
+  border:none;
+  background-color: white;
+}
+
+@media screen and (min-width: 992px) {
+  
+.navbar {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.navbar .nav-item {
+  padding:0px 2px 0px 40px;
+  margin:0px 2px 0px;
+}
+
+
+.navbar .dropdown {
+  position:static;
+  }
+
+.navbar .dropdown-menu {
+  width:95%;
+  left:0;
+  right:0;
+  top:45px; /*  top of nav-item  */
+  display:block;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+  
+}
+    
+/* dropdown menu on hover effect */
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  display:block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+  
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0,0,0,.15);
+    background-color: #fff;
+  }
+
+}
+
+/* end of Second Nav */
+
+
+body{
+  text-align: center;
+  font-family: "Roboto";
+}
+
+h1{
+  font-size: 45px;
+  font-weight:bold;
+}
+
+.wrapper{
+  position: relative;
+  text-align: left; 
+  padding: 4rem;
+  background-color: #E0E7E9;
+}
+
+.text{
+  font-size: 16px;
+  margin: 10px 35px;
+  padding: 5px 35px;
+  text-align: left;
+}
+
+h4{
+  text-align: left;
+  font-weight:bold;
+}
+
+p{
+  text-align: left;
+  font-size: 14px;
+}
+
+
+footer{
+  text-align: left;
+  position: relative;
+  padding: 3em;
+  background-color: gray;
+  color: white;
+}
+
+
+
