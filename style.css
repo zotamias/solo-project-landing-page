@@ -95,6 +95,20 @@ nav li a{
     border: 1px solid rgba(0,0,0,.15);
     background-color: #fff;
   }
+  
+ /* hover effect*/
+  #second nav ul li a.active, #second nav ul li a:hover{
+   color: black;
+   font-weight:bold;
+   background: white;
+ }  
+  #second .main{
+    background: #181947;
+    color: white;
+    padding: 13px 13px;
+    margin:0 auto;
+  } 
+  
 
 }
 
@@ -115,12 +129,12 @@ h1{
   position: relative;
   text-align: left; 
   padding: 4rem;
-  background-color: #E0E7E9;
+  background-color: #f2f2f2;
 }
 
 .text{
   font-size: 25px;
-  margin: 10px 55px 0px 85px;
+  margin: 10px 85px 0px 85px;
   padding: 5px 35px;
   text-align: left;
 }
