@@ -34,6 +34,14 @@ nav li a{
   padding: 1px 1px 1px 10px;
 }
 
+#group{
+  margin: 0px 75px 0px 57px;
+}
+
+.searchBar input{
+  width:125px;
+}
+
 /* Second Nav */
 
 /* margin bottom below the link sets  */
