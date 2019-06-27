@@ -72,9 +72,9 @@ nav li a{
   }
 
 .navbar .dropdown-menu {
-  width:100%;
-  left:50px;
-  right:50px;
+  width:90%;
+  left:60px;
+  right:0;
   top:45px; /*  top of nav-item  */
   display:block;
   visibility: hidden;
