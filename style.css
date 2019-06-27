@@ -82,8 +82,8 @@ border-right: none
 
 .navbar .dropdown-menu {
   width:80%;
-  left:60px;
-  right:60px;
+  left:90px;
+  right:0;
   top:55px; /*  top of nav-item  */
   display:block;
   visibility: hidden;
