@@ -35,12 +35,21 @@ nav li a{
 }
 
 #group{
-  margin: 0px 75px 0px 57px;
+  margin: 0px 75px 0px 50px;
 }
 
 .searchBar input{
   width:125px;
 }
+
+.first li {
+border-right: 1px solid black;
+}
+.first li:last-child {
+border-right: none
+}
+
+/* end of Top Nav */
 
 /* Second Nav */
 
