@@ -119,7 +119,9 @@ border-right: none
     padding: 13px 13px;
     margin:0 auto;
   } 
-  
+ #second .navbar{
+ left: 105px;
+} 
 
 }
 
