@@ -68,6 +68,8 @@ border-right: none
 .navbar {
   padding-top:0px;
   padding-bottom:0px;
+  display: inline-block;
+  list-style-type: none;
 }
 
 .navbar .nav-item {
